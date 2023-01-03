@@ -134,3 +134,20 @@
     - Нажимаем кнопку "Sign up"
   expected-result: |
     Пользователь должен попасть в личный кабинет пользователя
+
+- summary: |
+    Сайт должен быть протестирован на совместимость с последними версиями браузеров.
+  requirement: |
+    Открытия сайта в последних версиях браузера должно происходить корректно
+  prerequisites:
+    Открыта главная страница сайта
+  test-data: |
+    Safari
+    Goggle Chrome
+    Mozilla Firefox
+  steps:
+    - Открываем https://hexlet-products-store.vercel.app/ в Safari
+    - Открываем https://hexlet-products-store.vercel.app/ в Goggle Chrome
+    - Открываем https://hexlet-products-store.vercel.app/ в Mozilla Firefox
+  expected-result: |
+    Во всех последних версиях браузеров сайт интернет-магазина отображается корректно
