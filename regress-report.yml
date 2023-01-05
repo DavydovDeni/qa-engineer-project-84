@@ -1,5 +1,5 @@
 ---
-testcases:
+test-cases:
   - summary: |
       Очистка корзины товаров после оформления заказа
     status: fail
