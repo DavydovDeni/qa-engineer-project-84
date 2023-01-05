@@ -1,58 +1,59 @@
 ---
-- summary: |
+testcases:
+  - summary: |
     Очистка корзины товаров после оформления заказа
   status: fail
 
-- summary: |
+  - summary: |
     Русская локализация в описании карточки товара
   status: fail
   
-- summary: |
+  - summary: |
     Русская локализация в названиях категорий товаров
   status: fail
 
-- summary: |
+  - summary: |
     Возможность добавлять товары в корзину
   status: pass
   
-- summary: |
+  - summary: |
     Возможность просматривать содержимое корзины
   status: pass
   
-- summary: |
+  - summary: |
     Возможность фильтровать товары по цвету
   status: fail
   
-- summary: |
+  - summary: |
     Возможность фильтровать товары по цене
   status: pass
   
-- summary: |
+  - summary: |
     Просмотр страницы в виде мобильной версии
   status: fail
   
-- summary: |
+  - summary: |
     Регистрация нового пользователя
   status: fail
   
-- summary: |
+  - summary: |
     Совместимость с последними версиями браузеров
   status: pass
   
-- summary: |
+  - summary: |
     Возможность просматривать подробную информацию о товаре
   status: pass
   
-- summary: |
+  - summary: |
     Поиск товаров по ключевому слову
   status: pass
   
-- summary: |
+  - summary: |
     Поиск товаров по категории
   status: pass
 
 bugreports:
-- summary: |
+  - summary: |
     Сжатие изображения и элементов карточки товара при отображении одной карточки товара
   environment: |
     Google Chrome   108.0.5359.124 (Официальная сборка), (arm64)
